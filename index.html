@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>奈良地元選手情報（ダブルクリック対応版）</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top; }
+    th { background-color: #f2f2f2; }
+    pre { white-space: pre-wrap; margin: 0; font-family: sans-serif; }
+    .updated-label { font-size: 12px; display: inline-block; padding: 2px 4px; border-radius: 3px; margin-top: 2px;}
+    .up { color: #006400; background-color: #ccffcc; border: 1px solid #006400; }
+    .down { color: #cc0000; background-color: #ffcccc; border: 1px solid #cc0000; }
+    .row-up { background-color: #e6ffe6; }
+    .row-down { background-color: #ffecec; }
+    #progress { margin-top: 10px; font-size: 14px; font-weight: bold; }
+    #milestones { margin-top: 10px; font-size: 14px; padding: 10px; background-color: #f9f9f9; border: 1px solid #ddd; }
+    .loading-cell { color: #999; text-align: center; font-size: 12px; vertical-align: middle; }
+    .reg-num { font-size: 11px; color: #666; display: inline-block; margin-bottom: 2px; }
+    a { text-decoration: none; color: #007bff; }
+    a:hover { text-decoration: underline; }
+  </style>
+  
+  <!-- ★ここでNode.jsが出力したJSファイルを直接読み込む -->
+  <script src="player_data.js"></script>
+</head>
+<body>
+  <h1>奈良地元選手情報</h1>
+  <div id="progress"></div>
+  <div id="milestones"></div>
+  <div id="results"></div>
+
+  <script>
+    const rankScore = {
+      "Ｓ級Ｓ班": 1, "Ｓ級１班": 2, "Ｓ級２班": 3,
+      "Ａ級１班": 4, "Ａ級２班": 5, "Ａ級３班": 6,
+      "Ｌ級１班": 7
+    };
+    
+    const rankShortMap = {
+      "Ｓ級Ｓ班": "SS", "Ｓ級１班": "S1", "Ｓ級２班": "S2",
+      "Ａ級１班": "A1", "Ａ級２班": "A2", "Ａ級３班": "A3",
+      "Ｌ級１班": "L1"
+    };
+
+    function getShortRank(text) {
+        if (!text) return "";
+        const cleanText = text.replace(/\s+/g, '');
+        for (const [key, val] of Object.entries(rankShortMap)) {
+            if (cleanText.startsWith(key)) {
+                const suffix = cleanText.substring(key.length);
+                if (suffix.includes('特') || suffix.includes('昇')) {
+                    return val + '<span style="font-size:10px; color:#d63384;">(特)</span>';
+                }
+                return val;
+            }
+        }
+        return text;
+    }
+
+    function getRankScore(text) {
+        if (!text) return 99;
+        const cleanText = text.replace(/\s+/g, '');
+        for (const [key, score] of Object.entries(rankScore)) {
+            if (cleanText.startsWith(key)) {
+                return score;
+            }
+        }
+        return 99;
+    }
+
+    function renderTable() {
+      // player_data.jsが読み込めていなければエラーメッセージ
+      if (typeof importedData === 'undefined') {
+        document.getElementById('progress').innerHTML = '<span style="color:red;">データが見つかりません。Node.jsでスクレイピングを実行し、player_data.jsを作成してください。</span>';
+        return;
+      }
+
+      const playerResults = importedData;
+      const resultsDiv = document.getElementById('results');
+      const milestoneDiv = document.getElementById('milestones');
+      
+      const successCount = playerResults.filter(r => !r.failed).length;
+      const failedCount = playerResults.length - successCount;
+      let progressText = `読み込み完了：${playerResults.length}名`;
+      if (failedCount > 0) progressText += ` <span style="color:orange; font-size:12px;">（取得失敗：${failedCount}件）</span>`;
+      document.getElementById('progress').innerHTML = progressText;
+
+      let html = '<table><tr><th>氏名</th><th>級班<br><span style="font-size:11px; font-weight:normal">(前期)</span></th><th>変更日<br><span style="font-size:11px; font-weight:normal">(前期)</span></th><th>勝数</th>';
+      for (let i = 1; i <= 6; i++) html += `<th>${i}日目</th>`;
+      html += '</tr>';
+
+      const milestone100 = [], milestone200 = [], milestone300 = [], milestone400 = [];
+      const promoted = [], demoted = [];
+      const nextRankChange = [];
+
+      for (let i = 0; i < playerResults.length; i++) {
+        const data = playerResults[i];
+        const snumMatch = data.url.match(/snum=([0-9]+)/);
+        const snum = snumMatch ? snumMatch[1] : '';
+
+        if (data.failed) {
+          html += `<tr id="anchor_${data.name}">
+            <td><span class="reg-num">${snum}</span><br><a href="${data.url}" target="_blank">${data.name}</a></td>
+            <td colspan="9" class="loading-cell" style="color:red;">データ取得失敗</td>
+          </tr>`;
+          continue;
+        }
+
+        const today = new Date(), year = today.getFullYear();
+        const jan = new Date(`${year}-01-01`), jul = new Date(`${year}-07-01`);
+        const lastUpdate = today >= jul ? jul : jan;
+        let updateInfo = '', rowClass = '';
+        
+        const currentShort = getShortRank(data.kyuhan);
+        const histShort = getShortRank(data.kyuhanHist);
+
+        try {
+            if (data.profileCurrentRank && data.nextKyuhan) {
+                const curScore = getRankScore(data.profileCurrentRank);
+                const nextScore = getRankScore(data.nextKyuhan);
+                
+                if (curScore !== 99 && nextScore !== 99 && curScore !== nextScore) {
+                   const cShort = getShortRank(data.profileCurrentRank);
+                   const nShort = getShortRank(data.nextKyuhan);
+                   let arrow = '→';
+                   if (nextScore < curScore) arrow = '➚'; 
+                   if (nextScore > curScore) arrow = '➘';
+                   nextRankChange.push({ name: data.name, text: `${cShort}${arrow}${nShort}` });
+                }
+            }
+
+            const parsedDate = new Date(data.kyuhanDate.replace(/\//g, '-'));
+            if (!isNaN(parsedDate) && parsedDate >= lastUpdate) {
+                const curScore = getRankScore(data.kyuhan);
+                const prevScore = getRankScore(data.kyuhanHist);
+                const transition = `（${histShort}→${currentShort}）`;
+
+                if (curScore < prevScore) {
+                    promoted.push(`${data.name}${transition}`);
+                    updateInfo = '<br><span class="updated-label up">更新（昇級）</span>';
+                    rowClass = 'row-up';
+                } else if (curScore > prevScore) {
+                    demoted.push(`${data.name}${transition}`);
+                    updateInfo = '<br><span class="updated-label down">更新（降級）</span>';
+                    rowClass = 'row-down';
+                } else {
+                    updateInfo = '<br><span class="updated-label">更新</span>';
+                }
+            }
+
+            if (data.totalWinsNumeric !== null) {
+                const w = data.totalWinsNumeric;
+                if (w >= 96 && w <= 99) milestone100.push({ name: data.name, wins: w });
+                if (w >= 196 && w <= 199) milestone200.push({ name: data.name, wins: w });
+                if (w >= 296 && w <= 299) milestone300.push({ name: data.name, wins: w });
+                if (w >= 396 && w <= 399) milestone400.push({ name: data.name, wins: w });
+            }
+        } catch (e) {
+            console.error(e);
+        }
+
+        html += `<tr id="anchor_${data.name}" class="${rowClass}">
+          <td><span class="reg-num">${snum}</span><br><a href="${data.url}" target="_blank">${data.name}</a>${updateInfo}</td> 
+          <td>${currentShort}<br><span style="font-size:12px; color:#666;">(${histShort})</span></td> 
+          <td>${data.kyuhanDate}<br><span style="font-size:12px; color:#666;">(${data.kyuhanHistDate})</span></td> 
+          <td>${data.totalWins}</td> 
+          ${data.currentRace.map(r => `<td><pre>${r}</pre></td>`).join('')}
+        </tr>`;
+      }
+
+      html += '</table>';
+      resultsDiv.innerHTML = html;
+
+      milestoneDiv.innerHTML = `
+        <div style="font-weight:bold; color:#d63384; margin-bottom:5px;">▼次期級班変更有: ${nextRankChange.length ? nextRankChange.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.text}）</a>`).join('、') : 'なし'}</div>
+        <div style="border-top:1px dashed #ccc; margin:5px 0;"></div>
+        <div>▶ 100勝まで: ${milestone100.length ? milestone100.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
+        <div>▶ 200勝まで: ${milestone200.length ? milestone200.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
+        <div>▶ 300勝まで: ${milestone300.length ? milestone300.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
+        <div>▶ 400勝まで: ${milestone400.length ? milestone400.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
+        <div>▶ 今期昇級した選手: ${promoted.length ? promoted.map(n => `<a href="#anchor_${n.replace(/（.+?）/, '')}">${n}</a>`).join('、') : 'なし'}</div>
+        <div>▶ 今期降級した選手: ${demoted.length ? demoted.map(n => `<a href="#anchor_${n.replace(/（.+?）/, '')}">${n}</a>`).join('、') : 'なし'}</div>
+      `;
+    }
+
+    // 画面を開いた瞬間にすぐ表を描画！
+    window.onload = renderTable;
+  </script>
+</body>
+</html>
