@@ -73,7 +73,7 @@ const importedData = [
     "profileCurrentRank": "Ｓ級２班",
     "totalWins": 280,
     "currentRace": [
-      "ｰ",
+      "平塚Ｆ１ 10/08\nＳ級予選/9R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -116,8 +116,8 @@ const importedData = [
     "totalWins": 334,
     "currentRace": [
       "大宮Ｆ１ 10/06\nＳ級予選/9R（7着）",
-      "大宮Ｆ１ 10/07\nＳ級一般/8R（-着）",
-      "ｰ",
+      "大宮Ｆ１ 10/07\nＳ級一般/8R（3着）",
+      "大宮Ｆ１ 10/08\nＳ級一般/6R（-着）",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -178,9 +178,9 @@ const importedData = [
     "profileCurrentRank": "Ｓ級２班",
     "totalWins": 206,
     "currentRace": [
-      "奈良Ｆ１ 10/05\nＳ級予選/11R（2着）",
-      "奈良Ｆ１ 10/06\nＳ級準決勝/11R（4着）",
-      "奈良Ｆ１ 10/07\nＳ級特選/8R（-着）",
+      "ｰ",
+      "ｰ",
+      "ｰ",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -199,7 +199,7 @@ const importedData = [
     "profileCurrentRank": "Ｓ級２班",
     "totalWins": 213,
     "currentRace": [
-      "ｰ",
+      "平塚Ｆ１ 10/08\nＳ級予選/9R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -241,7 +241,7 @@ const importedData = [
     "profileCurrentRank": "Ａ級１班",
     "totalWins": 207,
     "currentRace": [
-      "ｰ",
+      "平塚Ｆ１ 10/08\nＡ級初特選/5R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -262,9 +262,9 @@ const importedData = [
     "profileCurrentRank": "Ａ級１班",
     "totalWins": 194,
     "currentRace": [
-      "奈良Ｆ１ 10/05\nＡ級初特選/5R（2着）",
-      "奈良Ｆ１ 10/06\nＡ級準決勝/5R（6着）",
-      "奈良Ｆ１ 10/07\nＡ級特選/4R（-着）",
+      "ｰ",
+      "ｰ",
+      "ｰ",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -347,8 +347,8 @@ const importedData = [
     "totalWins": 149,
     "currentRace": [
       "大宮Ｆ１ 10/06\nＳ級予選/9R（6着）",
-      "大宮Ｆ１ 10/07\nＳ級一般/8R（-着）",
-      "ｰ",
+      "大宮Ｆ１ 10/07\nＳ級一般/8R（4着）",
+      "大宮Ｆ１ 10/08\nＳ級一般/7R（-着）",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -472,8 +472,8 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 111,
     "currentRace": [
-      "静岡Ｆ２ 10/07\nＡ級チ予選/2R（-着）",
-      "ｰ",
+      "静岡Ｆ２ 10/07\nＡ級チ予選/2R（6着）",
+      "静岡Ｆ２ 10/08\nＡ級チ一般/1R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -556,8 +556,8 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 218,
     "currentRace": [
-      "静岡Ｆ２ 10/07\nＡ級チ予選/5R（-着）",
-      "ｰ",
+      "静岡Ｆ２ 10/07\nＡ級チ予選/5R（3着）",
+      "静岡Ｆ２ 10/08\nＡ級チ準決/3R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
