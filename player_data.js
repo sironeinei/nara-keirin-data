@@ -218,7 +218,7 @@ const importedData = [
     "kyuhanHistDate": "2026/01/01",
     "nextKyuhan": "-",
     "profileCurrentRank": "Ａ級１班",
-    "totalWins": 263,
+    "totalWins": 265,
     "currentRace": [
       "ｰ",
       "ｰ",
@@ -227,7 +227,7 @@ const importedData = [
       "ｰ",
       "ｰ"
     ],
-    "totalWinsNumeric": 263,
+    "totalWinsNumeric": 265,
     "failed": false
   },
   {
@@ -281,7 +281,7 @@ const importedData = [
     "kyuhanHistDate": "2024/01/01",
     "nextKyuhan": "-",
     "profileCurrentRank": "Ａ級２班",
-    "totalWins": 167,
+    "totalWins": 168,
     "currentRace": [
       "ｰ",
       "ｰ",
@@ -290,7 +290,7 @@ const importedData = [
       "ｰ",
       "ｰ"
     ],
-    "totalWinsNumeric": 167,
+    "totalWinsNumeric": 168,
     "failed": false
   },
   {
