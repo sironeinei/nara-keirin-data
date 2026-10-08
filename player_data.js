@@ -260,7 +260,7 @@ const importedData = [
     "kyuhanHistDate": "2022/01/01",
     "nextKyuhan": "-",
     "profileCurrentRank": "Ａ級１班",
-    "totalWins": 194,
+    "totalWins": 195,
     "currentRace": [
       "ｰ",
       "ｰ",
@@ -269,7 +269,7 @@ const importedData = [
       "ｰ",
       "ｰ"
     ],
-    "totalWinsNumeric": 194,
+    "totalWinsNumeric": 195,
     "failed": false
   },
   {
