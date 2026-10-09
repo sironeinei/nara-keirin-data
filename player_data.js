@@ -577,7 +577,7 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 42,
     "currentRace": [
-      "武雄Ｆ２ 10/09\nＡ級チ予選/5R（-着）",
+      "武雄Ｆ２ 10/09\nＡ級チ予選/5R（2着）",
       "ｰ",
       "ｰ",
       "ｰ",
