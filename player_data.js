@@ -10,8 +10,8 @@ const importedData = [
     "profileCurrentRank": "Ｓ級１班",
     "totalWins": 227,
     "currentRace": [
-      "弥彦Ｇ１ 10/09\nＳ級一予選/8R（-着）",
-      "ｰ",
+      "弥彦Ｇ１ 10/09\nＳ級一予選/8R（6着）",
+      "弥彦Ｇ１ 10/10\nＳ級特一般/5R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -31,8 +31,8 @@ const importedData = [
     "profileCurrentRank": "Ｓ級１班",
     "totalWins": 330,
     "currentRace": [
-      "弥彦Ｇ１ 10/09\nＳ級一予選/4R（-着）",
-      "ｰ",
+      "弥彦Ｇ１ 10/09\nＳ級一予選/4R（7着）",
+      "弥彦Ｇ１ 10/10\nＳ級特一般/3R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -74,8 +74,8 @@ const importedData = [
     "totalWins": 280,
     "currentRace": [
       "平塚Ｆ１ 10/08\nＳ級予選/9R（5着）",
-      "平塚Ｆ１ 10/09\nＳ級一般/8R（-着）",
-      "ｰ",
+      "平塚Ｆ１ 10/09\nＳ級一般/8R（7着）",
+      "平塚Ｆ１ 10/10\nＳ級一般/7R（-着）",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -94,8 +94,8 @@ const importedData = [
     "profileCurrentRank": "Ｓ級２班",
     "totalWins": 266,
     "currentRace": [
-      "弥彦Ｇ１ 10/09\nＳ級一予選/8R（-着）",
-      "ｰ",
+      "弥彦Ｇ１ 10/09\nＳ級一予選/8R（4着）",
+      "弥彦Ｇ１ 10/10\nＳ級二予Ｂ/6R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -197,16 +197,16 @@ const importedData = [
     "kyuhanHistDate": "2022/07/01",
     "nextKyuhan": "-",
     "profileCurrentRank": "Ｓ級２班",
-    "totalWins": 214,
+    "totalWins": 215,
     "currentRace": [
       "平塚Ｆ１ 10/08\nＳ級予選/9R（1着）",
-      "平塚Ｆ１ 10/09\nＳ級準決勝/10R（-着）",
-      "ｰ",
+      "平塚Ｆ１ 10/09\nＳ級準決勝/10R（1着）",
+      "平塚Ｆ１ 10/10\nＳ級決勝/12R（-着）",
       "ｰ",
       "ｰ",
       "ｰ"
     ],
-    "totalWinsNumeric": 214,
+    "totalWinsNumeric": 215,
     "failed": false
   },
   {
@@ -239,16 +239,16 @@ const importedData = [
     "kyuhanHistDate": "2025/07/01",
     "nextKyuhan": "-",
     "profileCurrentRank": "Ａ級１班",
-    "totalWins": 207,
+    "totalWins": 208,
     "currentRace": [
       "平塚Ｆ１ 10/08\nＡ級初特選/5R（7着）",
-      "平塚Ｆ１ 10/09\nＡ級準決勝/3R（-着）",
-      "ｰ",
+      "平塚Ｆ１ 10/09\nＡ級準決勝/3R（1着）",
+      "平塚Ｆ１ 10/10\nＡ級決勝/10R（-着）",
       "ｰ",
       "ｰ",
       "ｰ"
     ],
-    "totalWinsNumeric": 207,
+    "totalWinsNumeric": 208,
     "failed": false
   },
   {
@@ -367,8 +367,8 @@ const importedData = [
     "profileCurrentRank": "Ａ級２班",
     "totalWins": 207,
     "currentRace": [
-      "奈良Ｆ２ 10/09\nＡ級特予選/7R（-着）",
-      "ｰ",
+      "奈良Ｆ２ 10/09\nＡ級特予選/7R（6着）",
+      "奈良Ｆ２ 10/10\nＡ級特一般/5R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -388,8 +388,8 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 105,
     "currentRace": [
-      "奈良Ｆ２ 10/09\nＡ級チ予選/2R（-着）",
-      "ｰ",
+      "奈良Ｆ２ 10/09\nＡ級チ予選/2R（2着）",
+      "奈良Ｆ２ 10/10\nＡ級チ準決/4R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -409,8 +409,8 @@ const importedData = [
     "profileCurrentRank": "Ａ級１班",
     "totalWins": 127,
     "currentRace": [
-      "奈良Ｆ２ 10/09\nＡ級特予選/7R（-着）",
-      "ｰ",
+      "奈良Ｆ２ 10/09\nＡ級特予選/7R（7着）",
+      "奈良Ｆ２ 10/10\nＡ級特一般/6R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -472,9 +472,9 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 111,
     "currentRace": [
-      "静岡Ｆ２ 10/07\nＡ級チ予選/2R（6着）",
-      "静岡Ｆ２ 10/08\nＡ級チ一般/1R（4着）",
-      "静岡Ｆ２ 10/09\nＡ級チ一般/2R（-着）",
+      "ｰ",
+      "ｰ",
+      "ｰ",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -556,9 +556,9 @@ const importedData = [
     "profileCurrentRank": "Ａ級３班",
     "totalWins": 218,
     "currentRace": [
-      "静岡Ｆ２ 10/07\nＡ級チ予選/5R（3着）",
-      "静岡Ｆ２ 10/08\nＡ級チ準決/3R（7着）",
-      "静岡Ｆ２ 10/09\nＡ級チ一般/1R（-着）",
+      "ｰ",
+      "ｰ",
+      "ｰ",
       "ｰ",
       "ｰ",
       "ｰ"
@@ -578,7 +578,7 @@ const importedData = [
     "totalWins": 42,
     "currentRace": [
       "武雄Ｆ２ 10/09\nＡ級チ予選/5R（2着）",
-      "ｰ",
+      "武雄Ｆ２ 10/10\nＡ級チ準決/6R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
@@ -661,7 +661,7 @@ const importedData = [
     "profileCurrentRank": "Ｌ級１班",
     "totalWins": 0,
     "currentRace": [
-      "ｰ",
+      "岐阜Ｆ２ 10/10\nＬ級ガ予１/6R（-着）",
       "ｰ",
       "ｰ",
       "ｰ",
