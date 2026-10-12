@@ -153,7 +153,24 @@ const players = [
     await page.waitForTimeout(1000);
   }
   
-  // JSONではなく、JSファイルとして書き出す（HTMLでそのまま読み込めるようにするため）
-  fs.writeFileSync('player_data.js', 'const importedData = ' + JSON.stringify(results, null, 2) + ';', 'utf-8');
+// 日本時間の更新日時文字列を作成（例: 2026/10/12 15:30:00）
+  const now = new Date();
+  const jstString = new Intl.DateTimeFormat('ja-JP', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  }).format(now);
+
+  const outputPayload = {
+    updatedAt: jstString,
+    players: results
+  };
+
+  // player_data.js に出力
+  fs.writeFileSync('player_data.js', 'const importedData = ' + JSON.stringify(outputPayload, null, 2) + ';', 'utf-8');
   await browser.close();
 })();
