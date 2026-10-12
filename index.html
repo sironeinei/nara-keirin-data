@@ -5,9 +5,15 @@
   <title>奈良地元選手情報</title>
   <style>
     body { font-family: sans-serif; margin: 20px; }
-    .header-area { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+    .header-area { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 10px; }
+    .title-group { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
     h1 { margin: 0; }
     .last-updated { font-size: 14px; color: #555; font-weight: bold; }
+    .btn-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn { padding: 6px 12px; font-size: 13px; cursor: pointer; border: 1px solid #007bff; background-color: #007bff; color: white; border-radius: 4px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px; }
+    .btn:hover { background-color: #0056b3; text-decoration: none; }
+    .btn-outline { background-color: #fff; color: #555; border-color: #ccc; }
+    .btn-outline:hover { background-color: #f2f2f2; color: #333; }
     table { border-collapse: collapse; width: 100%; margin-top: 20px; }
     th, td { border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top; }
     th { background-color: #f2f2f2; }
@@ -30,14 +36,42 @@
 </head>
 <body>
   <div class="header-area">
-    <h1>奈良地元選手情報</h1>
-    <div id="last-updated" class="last-updated">最終更新日時: 取得中...</div>
+    <div class="title-group">
+      <h1>奈良地元選手情報</h1>
+      <div id="last-updated" class="last-updated">最終更新日時: 取得中...</div>
+    </div>
+    <div class="btn-group">
+      <button onclick="forceReload()" class="btn">🔄 表示を最新にする</button>
+      <a id="gh-actions-link" href="#" target="_blank" class="btn btn-outline" style="display: none;">⚙️ データ再取得 (GitHub)</a>
+    </div>
   </div>
   <div id="progress"></div>
   <div id="milestones"></div>
   <div id="results"></div>
 
   <script>
+    // キャッシュを無視して最新データを読み込み直す関数
+    function forceReload() {
+      const url = new URL(window.location.href);
+      url.searchParams.set('_t', new Date().getTime());
+      window.location.href = url.toString();
+    }
+
+    // GitHub Pages上で開いている場合、自動的にGitHub Actionsの手動実行画面へのリンクを生成する
+    function setupGitHubLink() {
+      const host = window.location.hostname;
+      const path = window.location.pathname;
+      if (host.endsWith('github.io')) {
+        const username = host.split('.')[0];
+        const repo = path.split('/').filter(Boolean)[0];
+        if (username && repo) {
+          const link = document.getElementById('gh-actions-link');
+          link.href = `https://github.com/${username}/${repo}/actions/workflows/scrape.yml`;
+          link.style.display = 'inline-flex';
+        }
+      }
+    }
+
     const rankScore = {
       "Ｓ級Ｓ班": 1, "Ｓ級１班": 2, "Ｓ級２班": 3,
       "Ａ級１班": 4, "Ａ級２班": 5, "Ａ級３班": 6,
@@ -77,6 +111,8 @@
     }
 
     function renderTable() {
+      setupGitHubLink();
+
       if (typeof importedData === 'undefined') {
         document.getElementById('progress').innerHTML = '<span style="color:red;">データが見つかりません。player_data.js を作成してください。</span>';
         document.getElementById('last-updated').innerText = '';
@@ -190,7 +226,7 @@
         <div style="font-weight:bold; color:#d63384; margin-bottom:5px;">▼次期級班変更有: ${nextRankChange.length ? nextRankChange.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.text}）</a>`).join('、') : 'なし'}</div>
         <div style="border-top:1px dashed #ccc; margin:5px 0;"></div>
         <div>▶ 100勝まで: ${milestone100.length ? milestone100.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
-        <div>▶ 200勝まで: ${milestone200.length ? milestone200.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、） : 'なし'}</div>
+        <div>▶ 200勝まで: ${milestone200.length ? milestone200.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
         <div>▶ 300勝まで: ${milestone300.length ? milestone300.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
         <div>▶ 400勝まで: ${milestone400.length ? milestone400.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
         <div>▶ 今期昇級した選手: ${promoted.length ? promoted.map(n => `<a href="#anchor_${n.replace(/（.+?）/, '')}">${n}</a>`).join('、') : 'なし'}</div>
