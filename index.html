@@ -2,9 +2,12 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>奈良地元選手情報（ダブルクリック対応版）</title>
+  <title>奈良地元選手情報</title>
   <style>
     body { font-family: sans-serif; margin: 20px; }
+    .header-area { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+    h1 { margin: 0; }
+    .last-updated { font-size: 14px; color: #555; font-weight: bold; }
     table { border-collapse: collapse; width: 100%; margin-top: 20px; }
     th, td { border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top; }
     th { background-color: #f2f2f2; }
@@ -22,11 +25,14 @@
     a:hover { text-decoration: underline; }
   </style>
   
-  <!-- ★ここでNode.jsが出力したJSファイルを直接読み込む -->
+  <!-- 自動生成されたJSファイルを読み込み -->
   <script src="player_data.js"></script>
 </head>
 <body>
-  <h1>奈良地元選手情報</h1>
+  <div class="header-area">
+    <h1>奈良地元選手情報</h1>
+    <div id="last-updated" class="last-updated">最終更新日時: 取得中...</div>
+  </div>
   <div id="progress"></div>
   <div id="milestones"></div>
   <div id="results"></div>
@@ -71,13 +77,20 @@
     }
 
     function renderTable() {
-      // player_data.jsが読み込めていなければエラーメッセージ
       if (typeof importedData === 'undefined') {
-        document.getElementById('progress').innerHTML = '<span style="color:red;">データが見つかりません。Node.jsでスクレイピングを実行し、player_data.jsを作成してください。</span>';
+        document.getElementById('progress').innerHTML = '<span style="color:red;">データが見つかりません。player_data.js を作成してください。</span>';
+        document.getElementById('last-updated').innerText = '';
         return;
       }
 
-      const playerResults = importedData;
+      // 新仕様（オブジェクト型）と旧仕様（配列直渡し）の互換性保持
+      const isNewFormat = importedData && !Array.isArray(importedData) && importedData.players;
+      const playerResults = isNewFormat ? importedData.players : importedData;
+      const updatedAt = isNewFormat ? importedData.updatedAt : '不明';
+
+      // 最終更新日時の反映
+      document.getElementById('last-updated').innerText = `最終更新日時: ${updatedAt}`;
+
       const resultsDiv = document.getElementById('results');
       const milestoneDiv = document.getElementById('milestones');
       
@@ -177,7 +190,7 @@
         <div style="font-weight:bold; color:#d63384; margin-bottom:5px;">▼次期級班変更有: ${nextRankChange.length ? nextRankChange.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.text}）</a>`).join('、') : 'なし'}</div>
         <div style="border-top:1px dashed #ccc; margin:5px 0;"></div>
         <div>▶ 100勝まで: ${milestone100.length ? milestone100.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
-        <div>▶ 200勝まで: ${milestone200.length ? milestone200.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
+        <div>▶ 200勝まで: ${milestone200.length ? milestone200.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、） : 'なし'}</div>
         <div>▶ 300勝まで: ${milestone300.length ? milestone300.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
         <div>▶ 400勝まで: ${milestone400.length ? milestone400.map(n => `<a href="#anchor_${n.name}">${n.name}（${n.wins}勝）</a>`).join('、') : 'なし'}</div>
         <div>▶ 今期昇級した選手: ${promoted.length ? promoted.map(n => `<a href="#anchor_${n.replace(/（.+?）/, '')}">${n}</a>`).join('、') : 'なし'}</div>
@@ -185,7 +198,6 @@
       `;
     }
 
-    // 画面を開いた瞬間にすぐ表を描画！
     window.onload = renderTable;
   </script>
 </body>
