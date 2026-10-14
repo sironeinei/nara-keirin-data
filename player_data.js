@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/14 09:14:56",
+  "updatedAt": "2026/10/14 23:27:43",
   "players": [
     {
       "name": "三谷将太",
@@ -54,8 +54,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 344,
       "currentRace": [
-        "奈良Ｆ１ 10/14\nＳ級初特選/12R（-着）",
-        "ｰ",
+        "奈良Ｆ１ 10/14\nＳ級初特選/12R（2着）",
+        "奈良Ｆ１ 10/15\nＳ級準決勝/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -118,8 +118,8 @@ const importedData = {
       "totalWins": 334,
       "currentRace": [
         "玉野Ｆ１ 10/13\nＳ級予選/10R（4着）",
-        "玉野Ｆ１ 10/14\nＳ級選抜/8R（-着）",
-        "ｰ",
+        "玉野Ｆ１ 10/14\nＳ級選抜/8R（6着）",
+        "玉野Ｆ１ 10/15\nＳ級一般/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -139,8 +139,8 @@ const importedData = {
       "totalWins": 218,
       "currentRace": [
         "玉野Ｆ１ 10/13\nＳ級予選/10R（1着）",
-        "玉野Ｆ１ 10/14\nＳ級準決勝/11R（-着）",
-        "ｰ",
+        "玉野Ｆ１ 10/14\nＳ級準決勝/11R（6着）",
+        "玉野Ｆ１ 10/15\nＳ級特選/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -306,8 +306,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "奈良Ｆ１ 10/14\nＳ級予選/10R（-着）",
-        "ｰ",
+        "奈良Ｆ１ 10/14\nＳ級予選/10R（3着）",
+        "奈良Ｆ１ 10/15\nＳ級準決勝/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,7 +411,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 127,
       "currentRace": [
-        "ｰ",
+        "豊橋Ｆ２ 10/15\nＡ級予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -621,8 +621,8 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "奈良Ｆ１ 10/14\nＬ級ガ予１/6R（-着）",
-        "ｰ",
+        "奈良Ｆ１ 10/14\nＬ級ガ予１/6R（3着）",
+        "奈良Ｆ１ 10/15\nＬ級ガ予２/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
