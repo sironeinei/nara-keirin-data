@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/14 23:27:43",
+  "updatedAt": "2026/10/15 08:50:05",
   "players": [
     {
       "name": "三谷将太",
@@ -8,7 +8,7 @@ const importedData = {
       "kyuhanDate": "2023/07/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2023/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 227,
       "currentRace": [
@@ -29,7 +29,7 @@ const importedData = {
       "kyuhanDate": "2022/01/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2021/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 330,
       "currentRace": [
@@ -50,7 +50,7 @@ const importedData = {
       "kyuhanDate": "2023/01/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2022/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 344,
       "currentRace": [
@@ -71,7 +71,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ｓ級１班",
       "kyuhanHistDate": "2026/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 280,
       "currentRace": [
@@ -92,7 +92,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ｓ級１班",
       "kyuhanHistDate": "2024/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 266,
       "currentRace": [
@@ -113,7 +113,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2026/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 334,
       "currentRace": [
@@ -134,7 +134,7 @@ const importedData = {
       "kyuhanDate": "2020/01/01",
       "kyuhanHist": "Ｓ級１班",
       "kyuhanHistDate": "2019/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 218,
       "currentRace": [
@@ -155,7 +155,7 @@ const importedData = {
       "kyuhanDate": "2024/01/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2023/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 223,
       "currentRace": [
@@ -176,7 +176,7 @@ const importedData = {
       "kyuhanDate": "2026/01/01",
       "kyuhanHist": "Ｓ級１班",
       "kyuhanHistDate": "2025/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 206,
       "currentRace": [
@@ -197,7 +197,7 @@ const importedData = {
       "kyuhanDate": "2024/03/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2022/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 215,
       "currentRace": [
@@ -218,7 +218,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2026/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級２班",
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 265,
       "currentRace": [
@@ -239,7 +239,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2025/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 208,
       "currentRace": [
@@ -260,7 +260,7 @@ const importedData = {
       "kyuhanDate": "2023/07/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2022/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 195,
       "currentRace": [
@@ -281,7 +281,7 @@ const importedData = {
       "kyuhanDate": "2026/01/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2024/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 168,
       "currentRace": [
@@ -302,7 +302,7 @@ const importedData = {
       "kyuhanDate": "2026/01/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2024/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
@@ -323,7 +323,7 @@ const importedData = {
       "kyuhanDate": "2023/07/01",
       "kyuhanHist": "Ｓ級２班",
       "kyuhanHistDate": "2022/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 133,
       "currentRace": [
@@ -344,7 +344,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2026/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 149,
       "currentRace": [
@@ -365,7 +365,7 @@ const importedData = {
       "kyuhanDate": "2021/07/01",
       "kyuhanHist": "Ａ級３班",
       "kyuhanHistDate": "2020/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 207,
       "currentRace": [
@@ -386,7 +386,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2023/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 105,
       "currentRace": [
@@ -407,7 +407,7 @@ const importedData = {
       "kyuhanDate": "2026/01/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2024/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 127,
       "currentRace": [
@@ -428,7 +428,7 @@ const importedData = {
       "kyuhanDate": "2020/01/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2019/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 37,
       "currentRace": [
@@ -449,7 +449,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2025/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｓ級２班",
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 88,
       "currentRace": [
@@ -470,7 +470,7 @@ const importedData = {
       "kyuhanDate": "2024/01/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2023/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 111,
       "currentRace": [
@@ -512,7 +512,7 @@ const importedData = {
       "kyuhanDate": "2026/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2026/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級２班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 292,
       "currentRace": [
@@ -533,7 +533,7 @@ const importedData = {
       "kyuhanDate": "2023/01/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2020/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 317,
       "currentRace": [
@@ -554,7 +554,7 @@ const importedData = {
       "kyuhanDate": "2026/01/01",
       "kyuhanHist": "Ａ級１班",
       "kyuhanHistDate": "2025/07/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 218,
       "currentRace": [
@@ -575,7 +575,7 @@ const importedData = {
       "kyuhanDate": "2018/05/01",
       "kyuhanHist": "",
       "kyuhanHistDate": "",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 42,
       "currentRace": [
@@ -596,7 +596,7 @@ const importedData = {
       "kyuhanDate": "2024/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2024/01/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 252,
       "currentRace": [
@@ -617,7 +617,7 @@ const importedData = {
       "kyuhanDate": "2017/07/01",
       "kyuhanHist": "Ａ級２班",
       "kyuhanHistDate": "2015/05/01",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｌ級１班",
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
@@ -659,7 +659,7 @@ const importedData = {
       "kyuhanDate": "2025/03/09",
       "kyuhanHist": "",
       "kyuhanHistDate": "",
-      "nextKyuhan": "-",
+      "nextKyuhan": "Ｌ級１班",
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 0,
       "currentRace": [
