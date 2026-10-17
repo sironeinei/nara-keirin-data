@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/17 21:52:37",
+  "updatedAt": "2026/10/18 07:59:59",
   "players": [
     {
       "name": "三谷将太",
@@ -409,16 +409,16 @@ const importedData = {
       "kyuhanHistDate": "2024/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 127,
+      "totalWins": 128,
       "currentRace": [
-        "豊橋Ｆ２ 10/15\nＡ級予選/3R（6着）",
-        "豊橋Ｆ２ 10/16\nＡ級一般/4R（5着）",
-        "豊橋Ｆ２ 10/17\nＡ級一般/4R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 127,
+      "totalWinsNumeric": 128,
       "failed": false
     },
     {
