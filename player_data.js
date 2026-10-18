@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/18 22:09:15",
+  "updatedAt": "2026/10/19 07:57:15",
   "players": [
     {
       "name": "三谷将太",
@@ -223,7 +223,7 @@ const importedData = {
       "totalWins": 266,
       "currentRace": [
         "広島Ｆ２ 10/18\nＡ級予選/3R（1着）",
-        "ｰ",
+        "広島Ｆ２ 10/19\nＡ級準決勝/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -283,7 +283,7 @@ const importedData = {
       "kyuhanHistDate": "2024/01/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級２班",
-      "totalWins": 168,
+      "totalWins": 170,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -292,7 +292,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 168,
+      "totalWinsNumeric": 170,
       "failed": false
     },
     {
@@ -325,7 +325,7 @@ const importedData = {
       "kyuhanHistDate": "2022/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 133,
+      "totalWins": 134,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -334,7 +334,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 133,
+      "totalWinsNumeric": 134,
       "failed": false
     },
     {
@@ -388,7 +388,7 @@ const importedData = {
       "kyuhanHistDate": "2023/01/01",
       "nextKyuhan": "Ａ級３班",
       "profileCurrentRank": "Ａ級３班",
-      "totalWins": 105,
+      "totalWins": 106,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -397,7 +397,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 105,
+      "totalWinsNumeric": 106,
       "failed": false
     },
     {
@@ -640,16 +640,16 @@ const importedData = {
       "kyuhanHistDate": "2025/03/09",
       "nextKyuhan": "Ａ級２班",
       "profileCurrentRank": "Ａ級２班",
-      "totalWins": 41,
+      "totalWins": 42,
       "currentRace": [
-        "広島Ｆ２ 10/18\nＡ級予選/7R（-着）",
-        "ｰ",
+        "広島Ｆ２ 10/18\nＡ級予選/7R（1着）",
+        "広島Ｆ２ 10/19\nＡ級準決勝/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 41,
+      "totalWinsNumeric": 42,
       "failed": false
     },
     {
@@ -664,7 +664,7 @@ const importedData = {
       "totalWins": 0,
       "currentRace": [
         "佐世Ｆ２ 10/18\nＬ級ガ予１/1R（2着）",
-        "ｰ",
+        "佐世Ｆ２ 10/19\nＬ級ガ予２/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
