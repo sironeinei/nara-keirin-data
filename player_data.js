@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/20 23:14:28",
+  "updatedAt": "2026/10/21 08:44:25",
   "players": [
     {
       "name": "三谷将太",
@@ -222,9 +222,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 266,
       "currentRace": [
-        "広島Ｆ２ 10/18\nＡ級予選/3R（1着）",
-        "広島Ｆ２ 10/19\nＡ級準決勝/9R（7着）",
-        "広島Ｆ２ 10/20\nＡ級特選/7R（6着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -642,9 +642,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 43,
       "currentRace": [
-        "広島Ｆ２ 10/18\nＡ級予選/7R（1着）",
-        "広島Ｆ２ 10/19\nＡ級準決勝/7R（1着）",
-        "広島Ｆ２ 10/20\nＡ級決勝/9R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -663,9 +663,9 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 0,
       "currentRace": [
-        "佐世Ｆ２ 10/18\nＬ級ガ予１/1R（2着）",
-        "佐世Ｆ２ 10/19\nＬ級ガ予２/2R（7着）",
-        "佐世Ｆ２ 10/20\nＬ級ガ一般/1R（6着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
