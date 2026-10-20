@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/20 09:12:54",
+  "updatedAt": "2026/10/20 23:14:28",
   "players": [
     {
       "name": "三谷将太",
@@ -54,7 +54,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 345,
       "currentRace": [
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -75,9 +75,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 280,
       "currentRace": [
-        "京王Ｇ３ 10/17\nＳ級一予選/5R（9着）",
-        "京王Ｇ３ 10/18\nＳ級選抜/1R（6着）",
-        "京王Ｇ３ 10/19\nＳ級一般/1R（7着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -138,7 +138,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 219,
       "currentRace": [
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -180,9 +180,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 206,
       "currentRace": [
-        "京王Ｇ３ 10/17\nＳ級一予選/3R（9着）",
-        "京王Ｇ３ 10/18\nＳ級選抜/5R（5着）",
-        "京王Ｇ３ 10/19\nＳ級一般/1R（3着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -224,7 +224,7 @@ const importedData = {
       "currentRace": [
         "広島Ｆ２ 10/18\nＡ級予選/3R（1着）",
         "広島Ｆ２ 10/19\nＡ級準決勝/9R（7着）",
-        "広島Ｆ２ 10/20\nＡ級特選/7R（-着）",
+        "広島Ｆ２ 10/20\nＡ級特選/7R（6着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -306,7 +306,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/11R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,7 +411,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 128,
       "currentRace": [
-        "ｰ",
+        "四日Ｆ１ 10/21\nＡ級予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -621,7 +621,7 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "ｰ",
+        "前橋Ｆ２ 10/21\nＬ級ガ予１/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -665,7 +665,7 @@ const importedData = {
       "currentRace": [
         "佐世Ｆ２ 10/18\nＬ級ガ予１/1R（2着）",
         "佐世Ｆ２ 10/19\nＬ級ガ予２/2R（7着）",
-        "佐世Ｆ２ 10/20\nＬ級ガ一般/1R（-着）",
+        "佐世Ｆ２ 10/20\nＬ級ガ一般/1R（6着）",
         "ｰ",
         "ｰ",
         "ｰ"
