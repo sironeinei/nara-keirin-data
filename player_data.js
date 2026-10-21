@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/21 08:44:25",
+  "updatedAt": "2026/10/21 23:26:57",
   "players": [
     {
       "name": "三谷将太",
@@ -33,7 +33,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 330,
       "currentRace": [
-        "ｰ",
+        "熊本Ｇ３ 10/22\nＳ級一予選/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -54,8 +54,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 345,
       "currentRace": [
-        "四日Ｆ１ 10/21\nＳ級予選/9R（-着）",
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/9R（3着）",
+        "四日Ｆ１ 10/22\nＳ級準決勝/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -138,8 +138,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 219,
       "currentRace": [
-        "四日Ｆ１ 10/21\nＳ級予選/10R（-着）",
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/10R（2着）",
+        "四日Ｆ１ 10/22\nＳ級準決勝/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -306,8 +306,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "四日Ｆ１ 10/21\nＳ級予選/11R（-着）",
-        "ｰ",
+        "四日Ｆ１ 10/21\nＳ級予選/11R（4着）",
+        "四日Ｆ１ 10/22\nＳ級選抜/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,8 +411,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 128,
       "currentRace": [
-        "四日Ｆ１ 10/21\nＡ級予選/3R（-着）",
-        "ｰ",
+        "四日Ｆ１ 10/21\nＡ級予選/3R（5着）",
+        "四日Ｆ１ 10/22\nＡ級一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -453,7 +453,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 88,
       "currentRace": [
-        "ｰ",
+        "熊本Ｇ３ 10/22\nＳ級一予選/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -558,7 +558,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 218,
       "currentRace": [
-        "ｰ",
+        "大宮Ｆ２ 10/22\nＡ級チ予選/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -579,7 +579,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 42,
       "currentRace": [
-        "ｰ",
+        "大宮Ｆ２ 10/22\nＡ級チ予選/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -621,7 +621,7 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "前橋Ｆ２ 10/21\nＬ級ガ予１/2R（-着）",
+        "前橋Ｆ２ 10/21\nＬ級ガ予１/2R（3着）",
         "ｰ",
         "ｰ",
         "ｰ",
