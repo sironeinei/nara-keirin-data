@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/25 22:40:11",
+  "updatedAt": "2026/10/26 08:08:14",
   "players": [
     {
       "name": "三谷将太",
@@ -10,7 +10,7 @@ const importedData = {
       "kyuhanHistDate": "2023/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 227,
+      "totalWins": 228,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -19,7 +19,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 227,
+      "totalWinsNumeric": 228,
       "failed": false
     },
     {
@@ -31,7 +31,7 @@ const importedData = {
       "kyuhanHistDate": "2021/07/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 330,
+      "totalWins": 331,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -40,7 +40,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 330,
+      "totalWinsNumeric": 331,
       "failed": false
     },
     {
@@ -94,7 +94,7 @@ const importedData = {
       "kyuhanHistDate": "2024/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級２班",
-      "totalWins": 266,
+      "totalWins": 267,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -103,7 +103,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 266,
+      "totalWinsNumeric": 267,
       "failed": false
     },
     {
@@ -325,7 +325,7 @@ const importedData = {
       "kyuhanHistDate": "2022/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 134,
+      "totalWins": 135,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -334,7 +334,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 134,
+      "totalWinsNumeric": 135,
       "failed": false
     },
     {
