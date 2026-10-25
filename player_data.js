@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/25 08:03:37",
+  "updatedAt": "2026/10/25 22:40:11",
   "players": [
     {
       "name": "三谷将太",
@@ -10,16 +10,16 @@ const importedData = {
       "kyuhanHistDate": "2023/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 228,
+      "totalWins": 227,
       "currentRace": [
-        "奈良Ｆ１ 10/23\nＳ級初特選/12R（3着）",
-        "奈良Ｆ１ 10/24\nＳ級準決勝/12R（1着）",
-        "奈良Ｆ１ 10/25\nＳ級決勝/12R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 228,
+      "totalWinsNumeric": 227,
       "failed": false
     },
     {
@@ -31,16 +31,16 @@ const importedData = {
       "kyuhanHistDate": "2021/07/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 331,
+      "totalWins": 330,
       "currentRace": [
-        "熊本Ｇ３ 10/22\nＳ級一予選/6R（2着）",
-        "熊本Ｇ３ 10/23\nＳ級二予選/6R（1着）",
-        "熊本Ｇ３ 10/24\nＳ級準決勝/12R（2着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 331,
+      "totalWinsNumeric": 330,
       "failed": false
     },
     {
@@ -94,16 +94,16 @@ const importedData = {
       "kyuhanHistDate": "2024/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級２班",
-      "totalWins": 267,
+      "totalWins": 266,
       "currentRace": [
-        "奈良Ｆ１ 10/23\nＳ級予選/7R（1着）",
-        "奈良Ｆ１ 10/24\nＳ級準決勝/10R（2着）",
-        "奈良Ｆ１ 10/25\nＳ級決勝/12R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 267,
+      "totalWinsNumeric": 266,
       "failed": false
     },
     {
@@ -160,8 +160,8 @@ const importedData = {
       "totalWins": 223,
       "currentRace": [
         "小松Ｆ１ 10/24\nＳ級予選/10R（4着）",
-        "小松Ｆ１ 10/25\nＳ級選抜/8R（-着）",
-        "ｰ",
+        "小松Ｆ１ 10/25\nＳ級選抜/8R（6着）",
+        "小松Ｆ１ 10/26\nＳ級一般/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -181,8 +181,8 @@ const importedData = {
       "totalWins": 206,
       "currentRace": [
         "小松Ｆ１ 10/24\nＳ級予選/7R（3着）",
-        "小松Ｆ１ 10/25\nＳ級選抜/8R（-着）",
-        "ｰ",
+        "小松Ｆ１ 10/25\nＳ級選抜/8R（4着）",
+        "小松Ｆ１ 10/26\nＳ級一般/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -325,16 +325,16 @@ const importedData = {
       "kyuhanHistDate": "2022/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 135,
+      "totalWins": 134,
       "currentRace": [
-        "奈良Ｆ１ 10/23\nＡ級初特選/5R（3着）",
-        "奈良Ｆ１ 10/24\nＡ級準決勝/5R（1着）",
-        "奈良Ｆ１ 10/25\nＡ級決勝/11R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 135,
+      "totalWinsNumeric": 134,
       "failed": false
     },
     {
@@ -433,8 +433,8 @@ const importedData = {
       "totalWins": 37,
       "currentRace": [
         "名古Ｆ２ 10/24\nＡ級チ予選/2R（7着）",
-        "名古Ｆ２ 10/25\nＡ級チ一般/2R（-着）",
-        "ｰ",
+        "名古Ｆ２ 10/25\nＡ級チ一般/2R（5着）",
+        "名古Ｆ２ 10/26\nＡ級チ一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -453,9 +453,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 88,
       "currentRace": [
-        "熊本Ｇ３ 10/22\nＳ級一予選/8R（2着）",
-        "熊本Ｇ３ 10/23\nＳ級二予選/12R（3着）",
-        "熊本Ｇ３ 10/24\nＳ級準決勝/12R（7着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -474,7 +474,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 111,
       "currentRace": [
-        "ｰ",
+        "和歌Ｆ２ 10/26\nＡ級チ予選/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -517,8 +517,8 @@ const importedData = {
       "totalWins": 292,
       "currentRace": [
         "名古Ｆ２ 10/24\nＡ級チ予選/1R（6着）",
-        "名古Ｆ２ 10/25\nＡ級チ一般/2R（-着）",
-        "ｰ",
+        "名古Ｆ２ 10/25\nＡ級チ一般/2R（3着）",
+        "名古Ｆ２ 10/26\nＡ級チ一般/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -600,7 +600,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 252,
       "currentRace": [
-        "ｰ",
+        "和歌Ｆ２ 10/26\nＡ級チ予選/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
