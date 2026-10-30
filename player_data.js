@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/30 09:44:29",
+  "updatedAt": "2026/10/31 00:46:15",
   "players": [
     {
       "name": "三谷将太",
@@ -12,7 +12,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 228,
       "currentRace": [
-        "ｰ",
+        "防府Ｇ３ 10/31\nＳ級一予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -306,7 +306,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "ｰ",
+        "防府Ｇ３ 10/31\nＳ級一予選/11R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -558,7 +558,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 218,
       "currentRace": [
-        "ｰ",
+        "熊本Ｆ２ 10/31\nＡ級チ予選/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
