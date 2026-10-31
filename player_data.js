@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/10/31 09:37:45",
+  "updatedAt": "2026/11/01 00:14:19",
   "players": [
     {
       "name": "三谷将太",
@@ -12,8 +12,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 228,
       "currentRace": [
-        "防府Ｇ３ 10/31\nＳ級一予選/3R（-着）",
-        "ｰ",
+        "防府Ｇ３ 10/31\nＳ級一予選/3R（3着）",
+        "防府Ｇ３ 11/01\nＳ級二予選/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -138,7 +138,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 219,
       "currentRace": [
-        "ｰ",
+        "久留Ｆ１ 11/01\nＳ級予選/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -306,8 +306,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "防府Ｇ３ 10/31\nＳ級一予選/11R（-着）",
-        "ｰ",
+        "防府Ｇ３ 10/31\nＳ級一予選/11R（5着）",
+        "防府Ｇ３ 11/01\nＳ級二予選/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -348,7 +348,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 149,
       "currentRace": [
-        "ｰ",
+        "久留Ｆ１ 11/01\nＳ級予選/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -559,7 +559,7 @@ const importedData = {
       "totalWins": 218,
       "currentRace": [
         "熊本Ｆ２ 10/31\nＡ級チ予選/1R（7着）",
-        "ｰ",
+        "熊本Ｆ２ 11/01\nＡ級チ一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -642,7 +642,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 43,
       "currentRace": [
-        "ｰ",
+        "小田Ｆ２ 11/01\nＡ級特予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
