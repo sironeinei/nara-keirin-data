@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/02 00:56:25",
+  "updatedAt": "2026/11/02 09:29:48",
   "players": [
     {
       "name": "三谷将太",
