@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/03 11:52:25",
+  "updatedAt": "2026/11/04 01:57:12",
   "players": [
     {
       "name": "三谷将太",
@@ -10,16 +10,16 @@ const importedData = {
       "kyuhanHistDate": "2023/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 229,
+      "totalWins": 228,
       "currentRace": [
-        "防府Ｇ３ 10/31\nＳ級一予選/3R（3着）",
-        "防府Ｇ３ 11/01\nＳ級二予選/10R（1着）",
-        "防府Ｇ３ 11/02\nＳ級準決勝/10R（6着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 229,
+      "totalWinsNumeric": 228,
       "failed": false
     },
     {
@@ -55,8 +55,8 @@ const importedData = {
       "totalWins": 345,
       "currentRace": [
         "豊橋Ｆ１ 11/02\nＳ級予選/9R（2着）",
-        "豊橋Ｆ１ 11/03\nＳ級準決勝/12R（-着）",
-        "ｰ",
+        "豊橋Ｆ１ 11/03\nＳ級準決勝/12R（5着）",
+        "豊橋Ｆ１ 11/04\nＳ級特選/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -75,8 +75,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 280,
       "currentRace": [
-        "青森Ｆ１ 11/03\nＳ級予選/8R（-着）",
-        "ｰ",
+        "青森Ｆ１ 11/03\nＳ級予選/8R（5着）",
+        "青森Ｆ１ 11/04\nＳ級選抜/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -96,8 +96,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 267,
       "currentRace": [
-        "青森Ｆ１ 11/03\nＳ級予選/8R（-着）",
-        "ｰ",
+        "青森Ｆ１ 11/03\nＳ級予選/8R（3着）",
+        "青森Ｆ１ 11/04\nＳ級準決勝/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -138,7 +138,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 219,
       "currentRace": [
-        "久留Ｆ１ 11/01\nＳ級予選/10R（失格１３条着）",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -202,8 +202,8 @@ const importedData = {
       "totalWins": 217,
       "currentRace": [
         "豊橋Ｆ１ 11/02\nＳ級予選/9R（1着）",
-        "豊橋Ｆ１ 11/03\nＳ級準決勝/10R（-着）",
-        "ｰ",
+        "豊橋Ｆ１ 11/03\nＳ級準決勝/10R（2着）",
+        "豊橋Ｆ１ 11/04\nＳ級決勝/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -306,9 +306,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "防府Ｇ３ 10/31\nＳ級一予選/11R（5着）",
-        "防府Ｇ３ 11/01\nＳ級二予選/6R（5着）",
-        "防府Ｇ３ 11/02\nＳ級特選/7R（7着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -348,9 +348,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 149,
       "currentRace": [
-        "久留Ｆ１ 11/01\nＳ級予選/9R（6着）",
-        "久留Ｆ１ 11/02\nＳ級一般/7R（2着）",
-        "久留Ｆ１ 11/03\nＳ級一般/6R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -517,8 +517,8 @@ const importedData = {
       "totalWins": 292,
       "currentRace": [
         "奈良Ｆ２ 11/02\nＡ級チ予選/4R（2着）",
-        "奈良Ｆ２ 11/03\nＡ級チ準決/6R（-着）",
-        "ｰ",
+        "奈良Ｆ２ 11/03\nＡ級チ準決/6R（5着）",
+        "奈良Ｆ２ 11/04\nＡ級チ選抜/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -664,8 +664,8 @@ const importedData = {
       "totalWins": 0,
       "currentRace": [
         "武雄Ｆ２ 11/02\nＬ級ガ予１/2R（6着）",
-        "武雄Ｆ２ 11/03\nＬ級ガ予２/2R（-着）",
-        "ｰ",
+        "武雄Ｆ２ 11/03\nＬ級ガ予２/2R（6着）",
+        "武雄Ｆ２ 11/04\nＬ級ガ一般/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
