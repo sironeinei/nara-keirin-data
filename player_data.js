@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/04 01:57:12",
+  "updatedAt": "2026/11/04 10:10:07",
   "players": [
     {
       "name": "三谷将太",
@@ -10,7 +10,7 @@ const importedData = {
       "kyuhanHistDate": "2023/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 228,
+      "totalWins": 229,
       "currentRace": [
         "ｰ",
         "ｰ",
@@ -19,7 +19,7 @@ const importedData = {
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 228,
+      "totalWinsNumeric": 229,
       "failed": false
     },
     {
