@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/06 10:27:51",
+  "updatedAt": "2026/11/07 01:41:22",
   "players": [
     {
       "name": "三谷将太",
@@ -34,8 +34,8 @@ const importedData = {
       "totalWins": 331,
       "currentRace": [
         "四日Ｇ３ 11/05\nＳ級一予選/6R（2着）",
-        "四日Ｇ３ 11/06\nＳ級二予選/10R（-着）",
-        "ｰ",
+        "四日Ｇ３ 11/06\nＳ級二予選/10R（2着）",
+        "四日Ｇ３ 11/07\nＳ級準決勝/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -118,8 +118,8 @@ const importedData = {
       "totalWins": 334,
       "currentRace": [
         "四日Ｇ３ 11/05\nＳ級一予選/10R（6着）",
-        "四日Ｇ３ 11/06\nＳ級選抜/4R（-着）",
-        "ｰ",
+        "四日Ｇ３ 11/06\nＳ級選抜/4R（5着）",
+        "四日Ｇ３ 11/07\nＳ級一般/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -159,8 +159,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 223,
       "currentRace": [
-        "熊本Ｆ１ 11/06\nＳ級予選/11R（-着）",
-        "ｰ",
+        "熊本Ｆ１ 11/06\nＳ級予選/11R（3着）",
+        "熊本Ｆ１ 11/07\nＳ級選抜/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -180,8 +180,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 206,
       "currentRace": [
-        "熊本Ｆ１ 11/06\nＳ級予選/10R（-着）",
-        "ｰ",
+        "熊本Ｆ１ 11/06\nＳ級予選/10R（4着）",
+        "熊本Ｆ１ 11/07\nＳ級選抜/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -223,8 +223,8 @@ const importedData = {
       "totalWins": 266,
       "currentRace": [
         "小倉Ｆ２ 11/05\nＡ級特予選/5R（6着）",
-        "小倉Ｆ２ 11/06\nＡ級特一般/6R（-着）",
-        "ｰ",
+        "小倉Ｆ２ 11/06\nＡ級特一般/6R（5着）",
+        "小倉Ｆ２ 11/07\nＡ級特一般/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -265,8 +265,8 @@ const importedData = {
       "totalWins": 195,
       "currentRace": [
         "小倉Ｆ２ 11/05\nＡ級初特選/9R（5着）",
-        "小倉Ｆ２ 11/06\nＡ級準決勝/7R（-着）",
-        "ｰ",
+        "小倉Ｆ２ 11/06\nＡ級準決勝/7R（2着）",
+        "小倉Ｆ２ 11/07\nＡ級決勝/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -285,7 +285,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 170,
       "currentRace": [
-        "ｰ",
+        "弥彦Ｆ２ 11/07\nＡ級特予選/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,7 +411,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 130,
       "currentRace": [
-        "ｰ",
+        "弥彦Ｆ２ 11/07\nＡ級特予選/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -474,7 +474,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 111,
       "currentRace": [
-        "ｰ",
+        "弥彦Ｆ２ 11/07\nＡ級チ予選/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
