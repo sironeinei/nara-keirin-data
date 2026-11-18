@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/18 11:50:04",
+  "updatedAt": "2026/11/19 02:55:48",
   "players": [
     {
       "name": "三谷将太",
@@ -13,7 +13,7 @@ const importedData = {
       "totalWins": 229,
       "currentRace": [
         "ｰ",
-        "ｰ",
+        "小倉Ｇ１ 11/19\nＳ級一予１/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -33,7 +33,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 331,
       "currentRace": [
-        "小倉Ｇ１ 11/18\nＳ級一予１/2R（-着）",
+        "小倉Ｇ１ 11/18\nＳ級一予１/2R（7着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -159,8 +159,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 223,
       "currentRace": [
-        "西武Ｆ１ 11/18\nＳ級予選/7R（-着）",
-        "ｰ",
+        "西武Ｆ１ 11/18\nＳ級予選/7R（3着）",
+        "西武Ｆ１ 11/19\nＳ級準決勝/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -244,8 +244,8 @@ const importedData = {
       "totalWins": 209,
       "currentRace": [
         "宇都Ｆ２ 11/17\nＡ級初特選/9R（6着）",
-        "宇都Ｆ２ 11/18\nＡ級準決勝/7R（-着）",
-        "ｰ",
+        "宇都Ｆ２ 11/18\nＡ級準決勝/7R（5着）",
+        "宇都Ｆ２ 11/19\nＡ級特選/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -327,8 +327,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 136,
       "currentRace": [
-        "西武Ｆ１ 11/18\nＡ級初特選/5R（-着）",
-        "ｰ",
+        "西武Ｆ１ 11/18\nＡ級初特選/5R（2着）",
+        "西武Ｆ１ 11/19\nＡ級準決勝/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -370,8 +370,8 @@ const importedData = {
       "totalWins": 207,
       "currentRace": [
         "宇都Ｆ２ 11/17\nＡ級特予選/8R（7着）",
-        "宇都Ｆ２ 11/18\nＡ級特一般/6R（-着）",
-        "ｰ",
+        "宇都Ｆ２ 11/18\nＡ級特一般/6R（6着）",
+        "宇都Ｆ２ 11/19\nＡ級特一般/5R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -433,8 +433,8 @@ const importedData = {
       "totalWins": 37,
       "currentRace": [
         "宇都Ｆ２ 11/17\nＡ級チ予選/3R（6着）",
-        "宇都Ｆ２ 11/18\nＡ級チ一般/2R（-着）",
-        "ｰ",
+        "宇都Ｆ２ 11/18\nＡ級チ一般/2R（6着）",
+        "宇都Ｆ２ 11/19\nＡ級チ一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -516,7 +516,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 292,
       "currentRace": [
-        "ｰ",
+        "福井Ｆ２ 11/19\nＡ級チ予選/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -600,7 +600,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 253,
       "currentRace": [
-        "ｰ",
+        "福井Ｆ２ 11/19\nＡ級チ予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
