@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/19 11:27:12",
+  "updatedAt": "2026/11/20 03:08:14",
   "players": [
     {
       "name": "三谷将太",
@@ -13,8 +13,8 @@ const importedData = {
       "totalWins": 229,
       "currentRace": [
         "ｰ",
-        "小倉Ｇ１ 11/19\nＳ級一予１/3R（-着）",
-        "ｰ",
+        "小倉Ｇ１ 11/19\nＳ級一予１/3R（9着）",
+        "小倉Ｇ１ 11/20\nＳ級一予２/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -35,7 +35,7 @@ const importedData = {
       "currentRace": [
         "小倉Ｇ１ 11/18\nＳ級一予１/2R（7着）",
         "ｰ",
-        "ｰ",
+        "小倉Ｇ１ 11/20\nＳ級一予２/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -160,8 +160,8 @@ const importedData = {
       "totalWins": 223,
       "currentRace": [
         "西武Ｆ１ 11/18\nＳ級予選/7R（3着）",
-        "西武Ｆ１ 11/19\nＳ級準決勝/10R（-着）",
-        "ｰ",
+        "西武Ｆ１ 11/19\nＳ級準決勝/10R（6着）",
+        "西武Ｆ１ 11/20\nＳ級特選/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -241,16 +241,16 @@ const importedData = {
       "kyuhanHistDate": "2025/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 209,
+      "totalWins": 210,
       "currentRace": [
-        "宇都Ｆ２ 11/17\nＡ級初特選/9R（6着）",
-        "宇都Ｆ２ 11/18\nＡ級準決勝/7R（5着）",
-        "宇都Ｆ２ 11/19\nＡ級特選/7R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 209,
+      "totalWinsNumeric": 210,
       "failed": false
     },
     {
@@ -325,16 +325,16 @@ const importedData = {
       "kyuhanHistDate": "2022/07/01",
       "nextKyuhan": "Ａ級１班",
       "profileCurrentRank": "Ａ級１班",
-      "totalWins": 136,
+      "totalWins": 137,
       "currentRace": [
         "西武Ｆ１ 11/18\nＡ級初特選/5R（2着）",
-        "西武Ｆ１ 11/19\nＡ級準決勝/3R（-着）",
-        "ｰ",
+        "西武Ｆ１ 11/19\nＡ級準決勝/3R（1着）",
+        "西武Ｆ１ 11/20\nＡ級決勝/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 136,
+      "totalWinsNumeric": 137,
       "failed": false
     },
     {
@@ -369,9 +369,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 207,
       "currentRace": [
-        "宇都Ｆ２ 11/17\nＡ級特予選/8R（7着）",
-        "宇都Ｆ２ 11/18\nＡ級特一般/6R（6着）",
-        "宇都Ｆ２ 11/19\nＡ級特一般/5R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -432,9 +432,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 37,
       "currentRace": [
-        "宇都Ｆ２ 11/17\nＡ級チ予選/3R（6着）",
-        "宇都Ｆ２ 11/18\nＡ級チ一般/2R（6着）",
-        "宇都Ｆ２ 11/19\nＡ級チ一般/2R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -517,7 +517,7 @@ const importedData = {
       "totalWins": 292,
       "currentRace": [
         "福井Ｆ２ 11/19\nＡ級チ予選/6R（4着）",
-        "ｰ",
+        "福井Ｆ２ 11/20\nＡ級チ準決/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -601,7 +601,7 @@ const importedData = {
       "totalWins": 253,
       "currentRace": [
         "福井Ｆ２ 11/19\nＡ級チ予選/3R（3着）",
-        "ｰ",
+        "福井Ｆ２ 11/20\nＡ級チ準決/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
