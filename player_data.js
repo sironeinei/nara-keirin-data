@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/21 11:04:47",
+  "updatedAt": "2026/11/22 01:43:47",
   "players": [
     {
       "name": "三谷将太",
@@ -54,8 +54,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 346,
       "currentRace": [
-        "小田Ｆ１ 11/21\nＳ級初特選/10R（-着）",
-        "ｰ",
+        "小田Ｆ１ 11/21\nＳ級初特選/10R（2着）",
+        "小田Ｆ１ 11/22\nＳ級準決勝/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -264,8 +264,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 197,
       "currentRace": [
-        "豊橋Ｆ１ 11/21\nＡ級初特選/5R（-着）",
-        "ｰ",
+        "豊橋Ｆ１ 11/21\nＡ級初特選/5R（7着）",
+        "豊橋Ｆ１ 11/22\nＡ級準決勝/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,7 +411,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 131,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＡ級特予選/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -516,9 +516,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 292,
       "currentRace": [
-        "福井Ｆ２ 11/19\nＡ級チ予選/6R（4着）",
-        "福井Ｆ２ 11/20\nＡ級チ準決/7R（5着）",
-        "福井Ｆ２ 11/21\nＡ級チ選抜/5R（未着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -537,7 +537,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 317,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＡ級チ予選/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -600,9 +600,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 253,
       "currentRace": [
-        "福井Ｆ２ 11/19\nＡ級チ予選/3R（3着）",
-        "福井Ｆ２ 11/20\nＡ級チ準決/7R（7着）",
-        "福井Ｆ２ 11/21\nＡ級チ一般/3R（2着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -621,7 +621,7 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＬ級ガ予１/5R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
