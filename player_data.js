@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/22 10:06:55",
+  "updatedAt": "2026/11/23 02:01:46",
   "players": [
     {
       "name": "三谷将太",
@@ -52,16 +52,16 @@ const importedData = {
       "kyuhanHistDate": "2022/07/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級１班",
-      "totalWins": 346,
+      "totalWins": 347,
       "currentRace": [
         "小田Ｆ１ 11/21\nＳ級初特選/10R（2着）",
-        "小田Ｆ１ 11/22\nＳ級準決勝/9R（-着）",
-        "ｰ",
+        "小田Ｆ１ 11/22\nＳ級準決勝/9R（1着）",
+        "小田Ｆ１ 11/23\nＳ級決勝/10R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 346,
+      "totalWinsNumeric": 347,
       "failed": false
     },
     {
@@ -265,8 +265,8 @@ const importedData = {
       "totalWins": 197,
       "currentRace": [
         "豊橋Ｆ１ 11/21\nＡ級初特選/5R（7着）",
-        "豊橋Ｆ１ 11/22\nＡ級準決勝/4R（-着）",
-        "ｰ",
+        "豊橋Ｆ１ 11/22\nＡ級準決勝/4R（2着）",
+        "豊橋Ｆ１ 11/23\nＡ級決勝/9R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -411,8 +411,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 131,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＡ級特予選/8R（-着）",
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＡ級特予選/8R（2着）",
+        "奈良Ｆ２ 11/23\nＡ級準決勝/11R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -474,7 +474,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 111,
       "currentRace": [
-        "ｰ",
+        "四日Ｆ２ 11/23\nＡ級チ予選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -537,8 +537,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 317,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＡ級チ予選/2R（-着）",
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＡ級チ予選/2R（6着）",
+        "奈良Ｆ２ 11/23\nＡ級チ一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -621,8 +621,8 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＬ級ガ予１/5R（-着）",
-        "ｰ",
+        "奈良Ｆ２ 11/22\nＬ級ガ予１/5R（3着）",
+        "奈良Ｆ２ 11/23\nＬ級ガ予２/5R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
