@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/24 06:06:18",
+  "updatedAt": "2026/11/25 05:04:48",
   "players": [
     {
       "name": "三谷将太",
@@ -117,8 +117,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 334,
       "currentRace": [
-        "松山Ｆ１ 11/24\nＳ級予選/6R（-着）",
-        "ｰ",
+        "松山Ｆ１ 11/24\nＳ級予選/6R（6着）",
+        "松山Ｆ１ 11/25\nＳ級一般/7R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -180,8 +180,8 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 207,
       "currentRace": [
-        "静岡Ｆ１ 11/24\nＳ級予選/11R（-着）",
-        "ｰ",
+        "静岡Ｆ１ 11/24\nＳ級予選/11R（落車棄権着）",
+        "静岡Ｆ１ 11/25\nＳ級一般/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -222,8 +222,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 266,
       "currentRace": [
-        "静岡Ｆ１ 11/24\nＡ級予選/3R（-着）",
-        "ｰ",
+        "静岡Ｆ１ 11/24\nＡ級予選/3R（7着）",
+        "静岡Ｆ１ 11/25\nＡ級一般/1R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -243,8 +243,8 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 210,
       "currentRace": [
-        "松山Ｆ１ 11/24\nＡ級初特選/5R（-着）",
-        "ｰ",
+        "松山Ｆ１ 11/24\nＡ級初特選/5R（4着）",
+        "松山Ｆ１ 11/25\nＡ級準決勝/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -306,7 +306,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "ｰ",
+        "福井Ｆ１ 11/25\nＳ級予選/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -411,9 +411,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級１班",
       "totalWins": 131,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＡ級特予選/8R（2着）",
-        "奈良Ｆ２ 11/23\nＡ級準決勝/11R（6着）",
-        "奈良Ｆ２ 11/24\nＡ級特選/8R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -475,8 +475,8 @@ const importedData = {
       "totalWins": 111,
       "currentRace": [
         "四日Ｆ２ 11/23\nＡ級チ予選/3R（4着）",
-        "四日Ｆ２ 11/24\nＡ級チ準決/6R（-着）",
-        "ｰ",
+        "四日Ｆ２ 11/24\nＡ級チ準決/6R（7着）",
+        "四日Ｆ２ 11/25\nＡ級チ一般/2R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -537,9 +537,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級３班",
       "totalWins": 318,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＡ級チ予選/2R（6着）",
-        "奈良Ｆ２ 11/23\nＡ級チ一般/2R（1着）",
-        "奈良Ｆ２ 11/24\nＡ級チ選抜/3R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -621,9 +621,9 @@ const importedData = {
       "profileCurrentRank": "Ｌ級１班",
       "totalWins": 36,
       "currentRace": [
-        "奈良Ｆ２ 11/22\nＬ級ガ予１/5R（3着）",
-        "奈良Ｆ２ 11/23\nＬ級ガ予２/5R（2着）",
-        "奈良Ｆ２ 11/24\nＬ級ガ決勝/10R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
