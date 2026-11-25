@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/25 05:04:48",
+  "updatedAt": "2026/11/25 13:03:23",
   "players": [
     {
       "name": "三谷将太",
@@ -223,7 +223,7 @@ const importedData = {
       "totalWins": 266,
       "currentRace": [
         "静岡Ｆ１ 11/24\nＡ級予選/3R（7着）",
-        "静岡Ｆ１ 11/25\nＡ級一般/1R（-着）",
+        "静岡Ｆ１ 11/25\nＡ級一般/1R（2着）",
         "ｰ",
         "ｰ",
         "ｰ",
