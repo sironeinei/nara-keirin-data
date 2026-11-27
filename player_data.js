@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/27 12:35:49",
+  "updatedAt": "2026/11/28 03:48:23",
   "players": [
     {
       "name": "三谷将太",
@@ -94,16 +94,16 @@ const importedData = {
       "kyuhanHistDate": "2024/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級２班",
-      "totalWins": 269,
+      "totalWins": 270,
       "currentRace": [
         "松阪Ｆ１ 11/26\nＳ級予選/10R（1着）",
-        "松阪Ｆ１ 11/27\nＳ級準決勝/10R（-着）",
-        "ｰ",
+        "松阪Ｆ１ 11/27\nＳ級準決勝/10R（1着）",
+        "松阪Ｆ１ 11/28\nＳ級決勝/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 269,
+      "totalWinsNumeric": 270,
       "failed": false
     },
     {
@@ -306,9 +306,9 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "福井Ｆ１ 11/25\nＳ級予選/8R（5着）",
-        "福井Ｆ１ 11/26\nＳ級一般/6R（4着）",
-        "福井Ｆ１ 11/27\nＳ級一般/7R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -370,8 +370,8 @@ const importedData = {
       "totalWins": 207,
       "currentRace": [
         "富山Ｆ２ 11/26\nＡ級特予選/10R（6着）",
-        "富山Ｆ２ 11/27\nＡ級特一般/8R（-着）",
-        "ｰ",
+        "富山Ｆ２ 11/27\nＡ級特一般/8R（3着）",
+        "富山Ｆ２ 11/28\nＡ級特一般/5R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -643,8 +643,8 @@ const importedData = {
       "totalWins": 43,
       "currentRace": [
         "松阪Ｆ１ 11/26\nＡ級予選/3R（3着）",
-        "松阪Ｆ１ 11/27\nＡ級準決勝/3R（-着）",
-        "ｰ",
+        "松阪Ｆ１ 11/27\nＡ級準決勝/3R（3着）",
+        "松阪Ｆ１ 11/28\nＡ級特選/3R（-着）",
         "ｰ",
         "ｰ",
         "ｰ"
