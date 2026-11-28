@@ -1,5 +1,5 @@
 const importedData = {
-  "updatedAt": "2026/11/28 12:12:45",
+  "updatedAt": "2026/11/29 02:28:15",
   "players": [
     {
       "name": "三谷将太",
@@ -33,7 +33,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級１班",
       "totalWins": 331,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ１ 11/29\nＳ級初特選/12R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -94,16 +94,16 @@ const importedData = {
       "kyuhanHistDate": "2024/01/01",
       "nextKyuhan": "Ｓ級１班",
       "profileCurrentRank": "Ｓ級２班",
-      "totalWins": 270,
+      "totalWins": 268,
       "currentRace": [
-        "松阪Ｆ１ 11/26\nＳ級予選/10R（1着）",
-        "松阪Ｆ１ 11/27\nＳ級準決勝/10R（1着）",
-        "松阪Ｆ１ 11/28\nＳ級決勝/12R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
       ],
-      "totalWinsNumeric": 270,
+      "totalWinsNumeric": 268,
       "failed": false
     },
     {
@@ -285,7 +285,7 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 170,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ１ 11/29\nＡ級予選/4R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -306,7 +306,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 180,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ１ 11/29\nＳ級予選/8R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -369,9 +369,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 207,
       "currentRace": [
-        "富山Ｆ２ 11/26\nＡ級特予選/10R（6着）",
-        "富山Ｆ２ 11/27\nＡ級特一般/8R（3着）",
-        "富山Ｆ２ 11/28\nＡ級特一般/5R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
@@ -453,7 +453,7 @@ const importedData = {
       "profileCurrentRank": "Ｓ級２班",
       "totalWins": 88,
       "currentRace": [
-        "ｰ",
+        "奈良Ｆ１ 11/29\nＳ級予選/6R（-着）",
         "ｰ",
         "ｰ",
         "ｰ",
@@ -642,9 +642,9 @@ const importedData = {
       "profileCurrentRank": "Ａ級２班",
       "totalWins": 43,
       "currentRace": [
-        "松阪Ｆ１ 11/26\nＡ級予選/3R（3着）",
-        "松阪Ｆ１ 11/27\nＡ級準決勝/3R（3着）",
-        "松阪Ｆ１ 11/28\nＡ級特選/3R（-着）",
+        "ｰ",
+        "ｰ",
+        "ｰ",
         "ｰ",
         "ｰ",
         "ｰ"
